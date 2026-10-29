@@ -164,3 +164,26 @@ Non-mutating (return a new list):
 - list.copy() or list[:] – shallow copy.
 
 Question: Which built-in function returns a new list without changing the original?
+
+---
+## 2026-10-29 15:58, in .
+
+**Me:** How do I make a while loop that keeps asking a question but stops after a maximum number of attempts
+
+**Tutor:**
+
+A while loop with a counter to limit attempts.
+
+```python
+attempts = 0
+max_attempts = 3
+
+while attempts < max_attempts:
+    answer = input("Enter your answer: ")
+    if answer.lower() == "quit":
+        break
+    attempts += 1
+    print(f"Attempt {attempts} of {max_attempts}")
+```
+
+What condition stops the loop when the user types "quit"?
