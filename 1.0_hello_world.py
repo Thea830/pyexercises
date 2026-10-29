@@ -22,10 +22,17 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My message, and why:
+# 1. In: use my name as a string
+# 2. Process: printing my name 
+# 3. Out: printing my name 5 times 
+# 4. My message, and why: just printed my name 5 times
 
 
 # Your code below
+print ("Thea")
+print("1. Thea")
+print("2. Thea")
+print("3. Thea")
+print("4. Thea")
+print("5. Thea")
+
