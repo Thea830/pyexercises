@@ -187,3 +187,22 @@ while attempts < max_attempts:
 ```
 
 What condition stops the loop when the user types "quit"?
+
+---
+## 2026-10-29 16:23, in .
+
+**Me:** How do I show the position of each item in a for loop
+
+**Tutor:**
+
+Looping with index and value
+You can use the built-in `enumerate` to get both the index and the item inside the loop.
+
+```python
+items = ["apple", "banana", "cherry"]
+
+for position, fruit in enumerate(items):
+    print(f"Position {position}: {fruit}")
+```
+
+What does `enumerate` return for each iteration?
