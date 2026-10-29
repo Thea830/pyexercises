@@ -24,10 +24,14 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process: 
-# 3. Out:
-# 4. My four transformations, and when each is useful:
+# 1. In: A string entered by the user
+# 2. Process: Apply four different string methods to transform the input
+# 3. Out: Four transformed versions of the input string
+# 4. My four transformations, and when each is useful: 
+#    - strip(): Useful for removing leading and trailing whitespace
+#    - upper(): Useful for converting text to uppercase
+#    - title(): Useful for converting text to title case
+#    - replace(): Useful for substituting one substring with another
 
 
 # Your code below

@@ -125,3 +125,20 @@ clean = text.strip()  # TODO: what is the value of clean?
 ```
 
 What does `strip()` remove from the string?
+
+---
+## 2026-10-29 14:02, in .
+
+**Me:** What does range(1, n + 1) do
+
+**Tutor:**
+
+It creates a sequence of integers from 1 up to and including n.
+
+```python
+# TODO: replace 5 with the real n from your data
+numbers = range(1, 5 + 1)
+print(list(numbers))  # → [1, 2, 3, 4, 5]
+```
+
+What is the second argument of range called?
