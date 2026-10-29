@@ -100,3 +100,28 @@ Which function lets you insert variables directly into a string using curly brac
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 13:50, in .
+
+**Me:** how to ask the user a sentence and display it in different ways?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-29 13:52, in .
+
+**Me:** what does 'strip' do
+
+**Tutor:**
+
+The string method `strip()` removes leading and trailing whitespace (spaces, tabs, newlines) from a string.
+
+```python
+text = "   hello world   "
+clean = text.strip()  # TODO: what is the value of clean?
+```
+
+What does `strip()` remove from the string?
