@@ -142,3 +142,25 @@ print(list(numbers))  # → [1, 2, 3, 4, 5]
 ```
 
 What is the second argument of range called?
+
+---
+## 2026-10-29 14:50, in .
+
+**Me:** Which ways of reordering a list change the original, and which ones make a new list
+
+**Tutor:**
+
+Mutating vs. non-mutating list operations.
+
+Mutating (change the original list):
+- list.sort() – sorts the list in place.
+- list.append(x), list.extend(iterable), list.insert(i, x) – add items.
+- list.remove(x), list.pop([i]) – remove items.
+- list.reverse() – reverses the list in place.
+
+Non-mutating (return a new list):
+- sorted(list) – returns a new sorted list.
+- list + other_list or list * n – concatenation or repetition.
+- list.copy() or list[:] – shallow copy.
+
+Question: Which built-in function returns a new list without changing the original?
