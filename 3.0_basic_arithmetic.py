@@ -48,3 +48,4 @@ if number_2 != 0:
     print("the division of two numbers is: ", div)
 else:
     print("division by zero is not allowed")
+    
