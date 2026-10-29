@@ -44,3 +44,31 @@ What loop control variable controls how many times the message is printed?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-10-29 11:08, in .
+
+**Me:** how to sort a list in python
+
+**Tutor:**
+
+Sorting a list in Python is done with the `sort()` method or the `sorted()` function.
+
+Pattern using `sorted()` (returns a new list):
+```python
+# TODO: import nothing here
+toy_list = ["banana", "apple", "cherry"]
+# TODO: call sorted() on toy_list and store the result in a new variable
+# TODO: print the new sorted list
+```
+
+Question: What is the difference between `list.sort()` and `sorted(list)` in terms of returning a value?
+
+---
+## 2026-10-29 11:30, in .
+
+**Me:** how do we name all the fields of a person
+
+**Tutor:**
+
+Refused, off topic.
