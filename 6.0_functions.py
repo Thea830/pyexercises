@@ -26,20 +26,29 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My function name, and why return rather than print:
+# 1. In: here, the function receives a list of numbers
+# 2. Process: the function calculates the average of the numbers in the list by summing them up and dividing by the length of the list
+# 3. Out:  the function returns the average of the numbers in the list
+# # 4. My function name, and why return rather than print: explains what the function does, and it returns the result rather than printing it so that the result can be used later in the program or stored in a variable for further processing.
 
 
 # Your code below
-def greet():
-    print("hello, world!!")
-    print("hello, world! 2")
+list = [4, 5, 6, 7, 8, 9]
 
-print("hello, world!")
-greet()
-greet()
+# Fonction qui calcule la moyenne d'une liste
+def moyenne(liste):
+    total = sum(liste)
+    return total / len(liste)
+
+# On appelle la fonction trois fois avec des listes différentes
+resultat1 = moyenne(list)
+resultat2 = moyenne([1, 2, 3])
+resultat3 = moyenne([10, 20, 30, 40])
+
+# On affiche les trois résultats
+print("Moyenne 1 :", resultat1)
+print("Moyenne 2 :", resultat2)
+print("Moyenne 3 :", resultat3)
 
 
 
