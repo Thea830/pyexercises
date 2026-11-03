@@ -43,4 +43,4 @@ print("Second half first: ", my_list[3:] + my_list[:3])
  
 print("First number at the end: ", my_list[1:] + my_list[:1])
  
-print("Original list: ", my_list)
+print("Original list: ", my_list) 

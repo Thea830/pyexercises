@@ -206,3 +206,93 @@ for position, fruit in enumerate(items):
 ```
 
 What does `enumerate` return for each iteration?
+
+---
+## 2026-11-03 12:25, in .
+
+**Me:** how to print a name
+
+**Tutor:**
+
+Printing a name is done with the `print()` function.
+
+```python
+name = "Alice"
+print(name)
+```
+
+What is the argument you pass to `print()` to display the name?
+
+---
+## 2026-11-03 15:13, in .
+
+**Me:** What does import csv do, and why do we need it?
+
+**Tutor:**
+
+Importing a module gives you access to its functions and classes so you can read or write files in a standard way.
+
+```python
+import csv
+
+# TODO: open a toy CSV file and read its rows
+with open('toy.csv', newline='') as f:
+    reader = csv.reader(f)          # TODO: what argument does csv.reader take?
+    for row in reader:
+        print(row)
+```
+
+What is the first argument you pass to `csv.reader`?
+
+---
+## 2026-11-03 15:13, in .
+
+**Me:** What is a function, and why does the project ask for at least four?
+
+**Tutor:**
+
+A function is a named block of reusable code that performs a single task.
+
+In your campaign-audit project you need at least four functions so you can:
+1. read the CSV file
+2. clean or validate the data
+3. compute CTR
+4. compute CPA and ROAS
+
+Pattern (toy data):
+
+```python
+# TODO: rename to something meaningful for your CSV
+def load_campaign_data(file_path):
+    """Return a list of dictionaries, one per row."""
+    import csv
+    data = []
+    with open(file_path, newline='') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            data.append(row)
+    return data
+
+# TODO: write the next function for cleaning
+```
+
+Which built-in module do you import to read a CSV file?
+
+---
+## 2026-11-03 15:14, in .
+
+**Me:** What is a tuple, and how is it different from a list?
+
+**Tutor:**
+
+A tuple is an immutable sequence of items, while a list is mutable.
+
+```python
+# Example of a tuple
+campaign_ids = (101, 205, 307)
+
+# Example of a list
+campaign_names = ["summer_sale", "winter_promo", "spring_offer"]
+```
+
+What is the key difference between a tuple and a list?
