@@ -332,3 +332,20 @@ def calculate_margin(cost, price):
 ```
 
 What is the keyword that sends a value back from a function?
+
+---
+## 2026-11-03 18:05, in .
+
+**Me:** What do min and max do?”
+
+**Tutor:**
+
+Finding the smallest and largest values in a list.
+
+```python
+numbers = [12, 3, 8, 25, 1]
+smallest = min(numbers)  # TODO: what is the value of smallest?
+largest  = max(numbers)  # TODO: what is the value of largest?
+```
+
+Which function returns the smallest value: `min` or `max`?
